@@ -61,3 +61,20 @@ To load weights for Resnet, SlowFast and MViT models, use the following [weights
 | X3D_M                       | K400                   | https://dl.fbaipublicfiles.com/pyslowfast/x3d_models/x3d_m.pyth                                                                     |
 | X3D_S                       | K400                   | https://dl.fbaipublicfiles.com/pyslowfast/x3d_models/x3d_s.pyth                                                                     |
 | rev-MViT                    | K400                   | https://dl.fbaipublicfiles.com/pyslowfast/rev/REV_MVIT_B_16x4.pyth                                                                  |
+
+# Citation
+
+If you use our code please consider citing our work:
+
+```md
+@INPROCEEDINGS{10350366,
+  author={De La Jara, Ignacio M. and Rodriguez-Opazo, Cristian and Marrese-Taylor, Edison and Bravo-Marquez, Felipe},
+  booktitle={2023 IEEE/CVF International Conference on Computer Vision Workshops (ICCVW)}, 
+  title={An empirical study of the effect of video encoders on Temporal Video Grounding}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={2842-2847},
+  keywords={Location awareness;Computer vision;Grounding;Conferences;Natural languages;Computer architecture;Complex networks;Temporal video grounding;computer vision;benchmark;features;action classification;video encoder},
+  doi={10.1109/ICCVW60793.2023.00306}}
+```
